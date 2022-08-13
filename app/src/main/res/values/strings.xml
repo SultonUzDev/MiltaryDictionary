@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Military Dictionary</string>
+    <string name="russian">Русский</string>
+    <string name="uzbek">O\'zbek</string>
+    <string name="english">English</string>
+    <string name="english_uzbek_russain">English-O\'zbek-Русский</string>
+    <string name="synonym">Synonym</string>
+    <string name="search_en">Search</string>
+    <string name="search_ru">Поиск</string>
+    <string name="search_uz">Qidirish</string>
+
+    <string name="en">En</string>
+    <string name="o_z">O\'z</string>
+    <string name="ru">Ру</string>
+
+    <string name="eng_info_description">This app is made for the military. With the help of the application, you can learn about 9000 English, Russian and Uzbek words related to the military field.</string>
+    <string name="rus_info_description">Это приложение сделано для военных. С помощью приложения вы сможете выучить около 9000 английских, русских и узбекских слов, относящихся к военной сфере.</string>
+    <string name="uzb_info_description">Ushbu ilova harbiylar uchun yaratilgan. Ilova yordamida harbiy sohaga oid 9000 ga yaqin ingliz, rus va oʻzbekcha soʻzlarni oʻrganishingiz mumkin.</string>
+</resources>

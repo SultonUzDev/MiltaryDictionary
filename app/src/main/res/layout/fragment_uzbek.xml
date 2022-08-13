@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.words.uzbek.UzbekFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_centerInParent="true"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            app:cardElevation="3dp"
+            app:strokeColor="@color/textColor"
+            app:strokeWidth="1dp">
+
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/sv_uzbek"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:iconifiedByDefault="false"
+                app:defaultQueryHint="@string/search_uz"
+                app:iconifiedByDefault="false" />
+        </com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_uzbek"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

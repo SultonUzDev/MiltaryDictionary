@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.sultonuzdev.militarydic.ui.main.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+
+        <action
+            android:id="@+id/action_mainFragment_to_englishFragment"
+            app:destination="@id/englishFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_russianFragment"
+            app:destination="@id/russianFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_uzbekFragment"
+            app:destination="@id/uzbekFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_infoFragment"
+            app:destination="@id/infoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishFragment"
+        android:name="com.sultonuzdev.militarydic.ui.words.english.EnglishFragment"
+        android:label="fragment_english"
+        tools:layout="@layout/fragment_english" >
+        <action
+            android:id="@+id/action_englishFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"  />
+    </fragment>
+    <fragment
+        android:id="@+id/russianFragment"
+        android:name="com.sultonuzdev.militarydic.ui.words.russian.RussianFragment"
+        android:label="fragment_russian"
+        tools:layout="@layout/fragment_russian" >
+        <action
+            android:id="@+id/action_russianFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/uzbekFragment"
+        android:name="com.sultonuzdev.militarydic.ui.words.uzbek.UzbekFragment"
+        android:label="fragment_uzbek"
+        tools:layout="@layout/fragment_uzbek" >
+        <action
+            android:id="@+id/action_uzbekFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.sultonuzdev.militarydic.ui.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="data"
+            app:argType="com.sultonuzdev.militarydic.data.room.entity.Word" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.sultonuzdev.militarydic.ui.main.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>
