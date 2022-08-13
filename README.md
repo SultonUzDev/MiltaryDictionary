@@ -1,4 +1,5 @@
 # MiltaryDictionary
+- My Second project on Google Play
 
 <div style="display:flex;">
 <img src="/img/logo1.jpg" width="30%">
