@@ -23,8 +23,8 @@ abstract class WordDatabase : RoomDatabase() {
             }
 
             synchronized(this) {
-                val instance = Room.databaseBuilder(context, WordDatabase::class.java, "wordDb")
-                    .createFromAsset("data.db")
+                val instance = Room.databaseBuilder(context, WordDatabase::class.java, "database.db")
+                    .createFromAsset("database.db")
                     .fallbackToDestructiveMigration()
                     .allowMainThreadQueries()
                     .build()
