@@ -13,15 +13,15 @@ android {
         applicationId "com.sultonuzdev.militarydic"
         minSdk 21
         targetSdk 32
-        versionCode 10
-        versionName "6.1.1"
+        versionCode 12
+        versionName "8"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
