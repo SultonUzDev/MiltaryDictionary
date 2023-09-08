@@ -17,7 +17,7 @@
         android:background="?selectableItemBackground"
         android:src="@drawable/ic_baseline_info_24" />
 
-    <ImageView
+    <androidx.appcompat.widget.AppCompatImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="5"
@@ -32,7 +32,7 @@
         android:layout_margin="16dp"
         android:layout_weight="1"
         app:cardBackgroundColor="@color/cardBackColor"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="3dp">
 
         <RelativeLayout
@@ -46,7 +46,7 @@
                 android:letterSpacing="0.1"
                 android:text="@string/english"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 
@@ -60,7 +60,7 @@
         android:layout_margin="16dp"
         android:layout_weight="1"
         app:cardBackgroundColor="@color/cardBackColor"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="8dp"
 
         app:cardElevation="3dp">
 
@@ -75,7 +75,7 @@
                 android:letterSpacing="0.1"
                 android:text="@string/uzbek"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 
@@ -89,7 +89,7 @@
         android:layout_margin="16dp"
         android:layout_weight="1"
         app:cardBackgroundColor="@color/cardBackColor"
-        app:cardCornerRadius="4dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="3dp">
 
         <RelativeLayout
@@ -103,7 +103,7 @@
                 android:letterSpacing="0.1"
                 android:text="@string/russian"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="18sp"
                 android:textStyle="bold" />
         </RelativeLayout>
 

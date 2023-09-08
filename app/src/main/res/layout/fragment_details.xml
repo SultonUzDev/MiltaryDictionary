@@ -23,10 +23,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:letterSpacing="0.11"
                 android:text="@string/english_uzbek_russain"
                 android:textColor="@color/textColor"
-                android:textSize="20sp"
-                 />
+                android:textSize="16sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <View
@@ -41,7 +42,6 @@
             android:text="@string/english"
             android:textAllCaps="true"
             android:textColor="@color/textColor"
-            android:textSize="16sp"
             android:textStyle="bold" />
 
 
@@ -56,7 +56,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="0.5dp"
+            android:layout_height="0.7dp"
             android:background="@color/lineColor" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -66,7 +66,6 @@
             android:text="@string/uzbek"
             android:textAllCaps="true"
             android:textColor="@color/textColor"
-            android:textSize="16sp"
             android:textStyle="bold" />
 
 
@@ -81,7 +80,7 @@
 
         <View
             android:layout_width="match_parent"
-            android:layout_height="0.5dp"
+            android:layout_height="0.7dp"
             android:background="@color/lineColor" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -91,7 +90,6 @@
             android:text="@string/russian"
             android:textAllCaps="true"
             android:textColor="@color/textColor"
-            android:textSize="16sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -104,20 +102,19 @@
             android:textColor="@color/black" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
             android:id="@+id/v_synonm"
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
             android:background="@color/lineColor" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_syn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/synonym"
-            android:id="@+id/tv_syn"
             android:textAllCaps="true"
             android:textColor="@color/textColor"
-            android:textSize="16sp"
             android:textStyle="bold" />
 
 

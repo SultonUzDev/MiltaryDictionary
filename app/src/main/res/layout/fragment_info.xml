@@ -20,17 +20,17 @@
             android:text="@string/en"
 
             android:textColor="@color/red"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_info_description_en"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:letterSpacing="0.05"
             android:padding="8dp"
             android:text="@string/eng_info_description"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textColor="@color/black" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_width="wrap_content"
@@ -39,17 +39,18 @@
             android:layout_marginTop="16dp"
             android:text="@string/o_z"
             android:textColor="@color/red"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_info_description_uz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:letterSpacing="0.05"
             android:padding="8dp"
+
             android:text="@string/uzb_info_description"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textColor="@color/black" />
 
 
         <androidx.appcompat.widget.AppCompatTextView
@@ -59,17 +60,17 @@
             android:layout_marginTop="16dp"
             android:text="@string/ru"
             android:textColor="@color/red"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/tv_info_description_ru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:letterSpacing="0.05"
             android:padding="8dp"
             android:text="@string/rus_info_description"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textColor="@color/black" />
 
 
     </LinearLayout>
