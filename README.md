@@ -7,8 +7,10 @@
 <img src="/img/logo2.png" width="30%">
 <img src="/img/logo3.png" width="30%">
 <img src="/img/logo4.png" width="30%">
-
 </div>
+
+
+
 
 - Note that, source code does not contain words database, this image shows database 
 <div style="display:flex;">
