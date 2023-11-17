@@ -16,3 +16,4 @@ local.properties
 .db
 .apk
 /app/src/main/assets
+/app/release
