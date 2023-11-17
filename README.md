@@ -11,9 +11,8 @@
 
 
 
-
+-------------------------------------------------------
 - Note that, source code does not contain words database, this image shows database 
 <div style="display:flex;">
 <img src="/img/img.png" width="100%">
-
 </div>
